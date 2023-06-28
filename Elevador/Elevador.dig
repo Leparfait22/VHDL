@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Elevador</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>Andar,Reset,clockl</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Andar1,Andar2,Andar3,Andar4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="220"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
