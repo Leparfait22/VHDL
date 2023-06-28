@@ -14,3 +14,9 @@ architecture archJanelas of entJanelas is
 begin
     janelas <= j1 and j2 and j3;
 end archJanelas ; -- arch
+
+user.email "helomeranda@gmail.com"
+user.name "Leparfait"
+
+git config --global user.email "helomeranda@gmail.com"
+git config --global user.name "Leparfait22"
