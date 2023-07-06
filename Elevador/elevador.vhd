@@ -9,8 +9,9 @@ entity elevador is
 
     port (
         clock : in std_logic;
+        reset : in std_logic;
         andar : in std_logic;
-        Andar1,Andar2,Andar3,Andar4, : out std_logic
+        Andar1,Andar2,Andar3,Andar4 : out std_logic
 
     );
 end entity elevador;
@@ -21,7 +22,7 @@ Type estado is (A,B,C,D);
 signal Y_prox,Y_atual :estado;
 
 begin
-    process(andar,clock,estado,Y_prox)
+    process(andar,clock,Y_prox)
     begin
         if(clock'EVENT and clock = '1') then
             case Y_prox is 
